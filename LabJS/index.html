@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <script src="main.js"></script>
+    <title>Contact Details</title>
+</head>
+<style>
+    body {
+        background-color: rgb(222, 248, 213);
+        font-family: sans-serif;
+        text-align: center;
+    }
+</style>
+<body>
+    <h2 style="color: midnightblue;">Enter your contact details</h2> <br>
+    <form id="main" onsubmit="return checkdata()">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name">
+        <br>
+        <br>
+        <label for="email">E-mail: </label>
+        <input type="text" id="email" name="email">
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
