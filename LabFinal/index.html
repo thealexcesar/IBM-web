@@ -1,4 +1,4 @@
-<html>
+<html lang="en">
     <head>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
@@ -8,8 +8,8 @@
         <main>
             <h1>Simple Interest Calculator</h1>
             Amount <input type="number" id="principal" required><br/>
-            Interest rate <input type="range" id="rangeInput" name="rangeInput" min="0" max="100" step=".10" value="0"
-            oninput="rate.value=rangeInput.value">
+            Interest rate <input type="range" id="rangeInput" name="rangeInput" min="0" max="100" step="1" value="0"
+            oninput="rate.value = rangeInput.value" required>
             <output id="rate" name="rate" for="rangeInput">0</output>%<br>
             N° of Years <input type="number" id="years" required><br>
             <button onclick="compute()">Compute</button><br><br><br>
